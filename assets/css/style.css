@@ -1,0 +1,19 @@
+body {
+    background-image: url("../images/backgroundimg.jpg"); 
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+
+img {
+      width: 200px;
+      padding: 25px 0 50px 50px;
+      height: 200px;
+}
+
+
+.display {
+    display: flex;
+
+}
