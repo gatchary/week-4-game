@@ -7,13 +7,40 @@ body {
 
 
 img {
-      width: 200px;
-      padding: 25px 0 50px 50px;
-      height: 200px;
+      width: 150px;
+      padding: 25px;
+      height: 150px;
 }
 
 
 .display {
     display: flex;
+
+}
+
+
+.fightButton {
+        padding: 10px 35px;
+        font-size: 19px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #080808;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #1F1F1F;
+      }
+      
+      .fightButton:hover {background-color: #080808}
+      
+      .fightButton:active {
+        background-color: #080808;
+        box-shadow: 0 5px #1F1F1F;
+        transform: translateY(4px);
+      }
+
+
+.players {
 
 }
