@@ -41,14 +41,81 @@ img {
       }
 
 
-.players {
+      .player {
+        
+    
+    }
 
-}
+   
 
+    .playersStyle {
+        border: solid, 5px;
+        border-color: blue;
+        background-color: #fff;
+        margin: 25px;
+        position: relative;
+    
+    }
 
+    .posrel {
+        position: relative;
+        text-align: center;
+        color: whitesmoke;
+  }
+  
+  
+  .posabs {
+    position: absolute;
+    bottom: 5px;
+    width: auto;
+    width: 100%;
+    right: .5px;
+    /* padding: 12px; */
+    /* background-color: #4aaaa5; */
+  }
+
+  .posabst {
+    position: absolute;
+    top: 5px;
+    width: auto;
+    width: 100%;
+    right: .5px;
+    /* padding: 12px; */
+    /* background-color: #4aaaa5; */
+  }
 .banner {
     text-align: center;
     text-justify: auto;
    
     
 }
+
+.bannerHead {
+    display: block;
+    text-align: center;
+    text-justify: auto;
+   
+    
+}
+
+
+.enemies{
+    background-color: rgb(0, 6, 12);
+
+}
+
+
+.fighter {
+    background-color: rgb(65, 140, 224);
+
+}
+
+
+.opponent {
+
+    background-color: rgb(140, 22, 38);
+
+}
+
+
+
